@@ -37,3 +37,8 @@ li {
 .form-group {
   margin-bottom: 5px;
 }
+
+.card * {
+  color: darkslategray;
+
+}
