@@ -1,5 +1,5 @@
 * {
-  font-family: 'Cinzel Decorative', cursive !important;
+  font-family: 'Cinzel Decorative', cursive;
   color: #ffffff;
 }
 
@@ -38,7 +38,11 @@ li {
   margin-bottom: 5px;
 }
 
-.card * {
+.card .list-group-item span {
+  font-size: 19px;
+}
+
+.card .list-group-item span, .card-form * {
   color: darkslategray;
 
 }

@@ -43,24 +43,23 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <div class="card">
+      <div class="card card-form">
         <div class="card-body">
           <h3 class="card-title">Add a Character</h3>
           <form class="create-form">
             <div class="form-group">
-              <label for="character">Chracter Name:</label>
-              <input type="text" id="character" name="name">
+              <label for="character">Character Name:</label>
+              <input type="text" id="character"  class="form-control" name="name">
             </div>
-
             <div class="form-group">
-              <label for="slee">Dead?</label>
-              <br>
-              <input type="radio" name="dead" value="1"> Dead
-              <br>
-              <input type="radio" name="dead" value="0" checked> Alive (for now)
+              <label for="dead">Dead?</label>
+              <select class="form-control" name="dead" id="dead">
+                <option value="1">Dead</option>
+                <option value="0">Alive</option>
+              </select>
             </div>
-
-            <button type="submit">Add Character</button>
+            
+            <button type="submit" class="btn btn-success" style="color:white;">Add Character</button>
           </form>
         </div>
       </div>

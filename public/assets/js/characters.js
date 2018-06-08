@@ -27,7 +27,7 @@ $(function() {
 
     var newChar = {
       name: $("#character").val().trim(),
-      dead: $("[name=dead]:checked").val().trim()
+      dead: $("[name=dead]").val().trim()
     };
 
     // Send the POST request.
